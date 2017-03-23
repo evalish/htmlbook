@@ -2,34 +2,25 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title> Списки в HTML</title>
+		<title> Таблицы в HTML</title>
 	</head>
 	<body>
-		<ul>
-			<li></li>
-			<li>
-				<ul>
-					<li></li>
-					<li></li>
-					<li>
-						<ul>
-							<li></li>
-							<li></li>
-							<li>
-								<ul>
-									<li></li>
-									<li></li>
-									<li></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li></li>
-				</ul>
-			</li>
-			<li></li>
-			<li></li>
-		</ul>
-		
+		<table height="200" border="2" cellspacing="10" cellpadding="10" >
+			<tr>
+				<th colspan="2">Heading</th>
+				<th>Heading</th>
+				
+			</tr>
+			<tr>
+				<td rowspan="2">Content</td>
+				<td>Content</td>
+				<td>Content</td>
+			</tr>
+			<tr>
+				<td>Content</td>
+				<td>Content</td>
+			
+			</tr>
+		</table>
 	</body>
 </html>
